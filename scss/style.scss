@@ -400,7 +400,6 @@ $secondary-color:rgb(14, 111, 124);
               .input-group-login{
                 top: 150px;
                 color:rgb(163, 160, 160);
-                
                 position:absolute;
                 width:250px;
                 transition:.5s;
@@ -413,7 +412,7 @@ $secondary-color:rgb(14, 111, 124);
                 border-top:0;
                 border-right:0;
                 border-bottom: 1px solid #999;
-                color: #212024;
+                color: #fff;
                 outline:none;
                 background: transparent;
               }
@@ -564,14 +563,14 @@ $secondary-color:rgb(14, 111, 124);
               width:62px;
             }
             .ct-footer .inner-right .policy p{
-              padding-left: 10px;
+              padding-left: 0px;
             }
             .ct-footer .inner-right p{
               padding-left: 10px;
             }
             .ct-footer .inner-right .social{
               margin-top: 10px;
-              margin-left: 10px;
+              margin-left: 0px;
               margin-bottom: 13px;
           }
         }
@@ -896,11 +895,15 @@ a:active {
   color:#49474d;
   font-size: 15px;
 }
-.ct-footer .inner-right .policy a{
-color: #0f667e;
+.ct-footer .inner-right .policy{
+margin-left: 36%;
 }
+.ct-footer .inner-right .policy a{
+  color: #0f667e;
+  }
 .ct-footer .inner-right .social{
   display: flex;
+  margin-left: 70px;
 }
 .ct-footer .inner-right .social a{
   display: flex;

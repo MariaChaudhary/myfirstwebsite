@@ -365,7 +365,7 @@ body .input-field {
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #999;
-  color: #212024;
+  color: #fff;
   outline: none;
   background: transparent; }
 
@@ -482,12 +482,12 @@ form {
     font-size: 19px;
     width: 62px; }
   body .ct-footer .inner-right .policy p {
-    padding-left: 10px; }
+    padding-left: 0px; }
   body .ct-footer .inner-right p {
     padding-left: 10px; }
   body .ct-footer .inner-right .social {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 13px; } }
 
 @media (min-width: 1200px) {
@@ -767,11 +767,15 @@ body .ct-footer .inner-right {
   color: #49474d;
   font-size: 15px; }
 
+body .ct-footer .inner-right .policy {
+  margin-left: 36%; }
+
 body .ct-footer .inner-right .policy a {
   color: #0f667e; }
 
 body .ct-footer .inner-right .social {
-  display: flex; }
+  display: flex;
+  margin-left: 70px; }
 
 body .ct-footer .inner-right .social a {
   display: flex;
