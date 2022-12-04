@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "I'm doing my Project.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
