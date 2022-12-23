@@ -463,11 +463,6 @@ form {
     display: inline; }
   body #back {
     background-position: center; }
-  body .ct-footer .container .inner-right .policy {
-    display: flex;
-    margin-left: 0; }
-  body .ct-footer .inner-right {
-    padding-left: 0px; }
   body .ct-footer-list {
     margin-left: 20px; }
   body .ct-footer-pre span {
@@ -481,14 +476,8 @@ form {
   body .ct-footer .inner .form-group button {
     font-size: 19px;
     width: 62px; }
-  body .ct-footer .inner-right .policy p {
-    padding-left: 0px; }
   body .ct-footer .inner-right p {
-    padding-left: 10px; }
-  body .ct-footer .inner-right .social {
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-bottom: 13px; } }
+    padding-left: 10px; } }
 
 @media (min-width: 1200px) {
   body .ct-footer-pre {
@@ -763,19 +752,19 @@ body .ct-footer-post a:hover {
   text-decoration: underline; }
 
 body .ct-footer .inner-right {
-  margin: 25px 0px 0px 20px;
   color: #49474d;
   font-size: 15px; }
 
 body .ct-footer .inner-right .policy {
-  margin-left: 36%; }
+  margin-left: 18%;
+  margin-right: 20px; }
 
 body .ct-footer .inner-right .policy a {
   color: #0f667e; }
 
 body .ct-footer .inner-right .social {
   display: flex;
-  margin-left: 70px; }
+  margin-left: 0px; }
 
 body .ct-footer .inner-right .social a {
   display: flex;
@@ -785,7 +774,7 @@ body .ct-footer .inner-right .social a {
   height: 36px;
   border-radius: 50%;
   background-color: #00bff3;
-  margin: 3px 3px 13px 1px;
+  margin: 3px 3px 13px 2px;
   transition: 0.3s ease-in-out; }
 
 body .ct-footer .inner-right .social a:hover {

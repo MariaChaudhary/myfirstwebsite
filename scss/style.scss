@@ -537,13 +537,6 @@ $secondary-color:rgb(14, 111, 124);
              #back{
               background-position: center;
              }
-             .ct-footer .container .inner-right .policy{
-              display:flex;
-              margin-left: 0;
-            }
-            .ct-footer .inner-right{
-              padding-left: 0px;
-            }
             .ct-footer-list {
               margin-left: 20px;
             }
@@ -562,17 +555,9 @@ $secondary-color:rgb(14, 111, 124);
               font-size: 19px;
               width:62px;
             }
-            .ct-footer .inner-right .policy p{
-              padding-left: 0px;
-            }
             .ct-footer .inner-right p{
               padding-left: 10px;
             }
-            .ct-footer .inner-right .social{
-              margin-top: 10px;
-              margin-left: 0px;
-              margin-bottom: 13px;
-          }
         }
         @media (min-width:1200px) {
           .ct-footer-pre {
@@ -596,9 +581,6 @@ $secondary-color:rgb(14, 111, 124);
               padding-top: 15px
           }
         }
-
-        
-
 
           
             
@@ -891,19 +873,19 @@ a:active {
   text-decoration: underline;
 }
 .ct-footer .inner-right{
-  margin:25px 0px 0px 20px;
   color:#49474d;
   font-size: 15px;
 }
 .ct-footer .inner-right .policy{
-margin-left: 36%;
+margin-left: 18%;
+margin-right: 20px;
 }
 .ct-footer .inner-right .policy a{
   color: #0f667e;
   }
-.ct-footer .inner-right .social{
+.ct-footer .inner-right .social {
   display: flex;
-  margin-left: 70px;
+  margin-left: 0px;
 }
 .ct-footer .inner-right .social a{
   display: flex;
@@ -913,7 +895,7 @@ margin-left: 36%;
   height: 36px;
   border-radius: 50%;
   background-color: #00bff3;
-  margin: 3px 3px 13px 1px;
+  margin: 3px 3px 13px 2px;
   transition: 0.3s ease-in-out;
 }
 .ct-footer .inner-right .social a:hover{
