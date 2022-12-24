@@ -212,14 +212,13 @@ form .btn {
     body .img
 form .btn button {
       display: flex;
-      width: 45%;
+      width: 48%;
       justify-content: center;
       padding: 15px 30px;
       background-color: #24ccd8;
       outline: none;
       border: none;
       color: #fff;
-      text-transform: uppercase;
       font-weight: 700;
       border-radius: 6px;
       margin-top: 10px; }
