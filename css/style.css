@@ -419,8 +419,8 @@ body form .signup-link a:hover {
     color: #262727;
     font-size: 21px;
     position: fixed;
-    top: 36px;
-    right: 39%; }
+    top: 35px;
+    right: 41%; }
   body #navigation .navbar-toggler span:focus {
     outline: none; }
   body #navigation #navbarNavDropdown .nav-link.active {
