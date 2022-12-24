@@ -456,14 +456,13 @@ form {
     background-position: center; }
   body .ct-footer-list {
     margin-left: 20px; }
-  body .ct-footer-pre span {
+  body .ct-footer-pre p {
     padding-left: 20px; }
   body .ct-footer .inner .form-group {
-    padding: 10x 30px 0 0px;
-    margin-left: 10px; }
-  body .ct-footer .inner span {
+    margin-left: 0px; }
+  body .ct-footer .inner p {
     font-size: 18px;
-    padding-left: 10px; }
+    padding-left: 0px; }
   body .ct-footer .inner .form-group button {
     font-size: 19px;
     width: 62px; }
@@ -486,6 +485,10 @@ form {
 @media (max-width: 1199px) {
   body .ct-footer-pre .form-group {
     padding-top: 15px; } }
+
+@media (min-width: 1200px) {
+  body .ct-footer .inner-right .social {
+    margin-left: 100px; } }
 
 body button:focus,
 body .navbar-toggler:focus {
@@ -686,7 +689,7 @@ body .ct-footer-pre {
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
-body .ct-footer-pre span {
+body .ct-footer-pre p {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #ebebeb;
   font-size: 25px; }
@@ -706,7 +709,7 @@ body .ct-footer-pre .form-group input {
   color: #fff;
   height: 40px;
   padding: 0 30px;
-  margin: 0 5px;
+  margin: 0 5px 0 0px;
   border-radius: 0 !important; }
 
 body .ct-footer-pre .form-group button {
@@ -755,7 +758,7 @@ body .ct-footer .inner-right .policy a {
 
 body .ct-footer .inner-right .social {
   display: flex;
-  margin-left: 0px; }
+  margin-left: 4px; }
 
 body .ct-footer .inner-right .social a {
   display: flex;

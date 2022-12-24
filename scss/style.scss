@@ -540,16 +540,16 @@ $secondary-color:rgb(14, 111, 124);
             .ct-footer-list {
               margin-left: 20px;
             }
-            .ct-footer-pre span {
+            .ct-footer-pre p {
               padding-left: 20px;
             }
             .ct-footer .inner .form-group{
-              padding: 10x 30px 0 0px;
-              margin-left: 10px;
+              // padding: 10x 30px 0 0px;
+              margin-left: 0px;
             }  
-            .ct-footer .inner span{
+            .ct-footer .inner p{
               font-size: 18px;
-              padding-left: 10px;
+              padding-left: 0px;
             }
             .ct-footer .inner .form-group button {
               font-size: 19px;
@@ -581,6 +581,11 @@ $secondary-color:rgb(14, 111, 124);
               padding-top: 15px
           }
         }
+        @media (min-width:1200px){
+        .ct-footer .inner-right .social{
+          margin-left: 100px;
+        }
+      }
 
           
             
@@ -816,7 +821,7 @@ a:active {
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.ct-footer-pre span {
+.ct-footer-pre p {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #ebebeb;
   font-size: 25px;
@@ -836,7 +841,7 @@ a:active {
   color: #fff;
   height: 40px;
   padding: 0 30px;
-  margin: 0 5px;
+  margin: 0 5px 0 0px;
   border-radius: 0 !important;
 }
 .ct-footer-pre .form-group button {
@@ -885,7 +890,7 @@ margin-right: 20px;
   }
 .ct-footer .inner-right .social {
   display: flex;
-  margin-left: 0px;
+  margin-left: 4px;
 }
 .ct-footer .inner-right .social a{
   display: flex;
