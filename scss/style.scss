@@ -545,15 +545,19 @@ $secondary-color:rgb(14, 111, 124);
             }
             .ct-footer .inner .form-group{
               // padding: 10x 30px 0 0px;
-              margin-left: 0px;
-            }  
+              margin-left: 20px;
+            }
+            .ct-footer .inner .form-group input{
+            margin: 0px 100% 10px 0px;
+            }
             .ct-footer .inner p{
               font-size: 18px;
-              padding-left: 0px;
+              padding-left: 20px;
             }
             .ct-footer .inner .form-group button {
               font-size: 19px;
-              width:62px;
+              width:67px;
+              height: 37px;
             }
             .ct-footer .inner-right p{
               padding-left: 10px;
@@ -580,14 +584,7 @@ $secondary-color:rgb(14, 111, 124);
           .ct-footer-pre .form-group {
               padding-top: 15px
           }
-        }
-        @media (min-width:1200px){
-        .ct-footer .inner-right .social{
-          margin-left: 100px;
-        }
-      }
-
-          
+        }          
             
 
               // Bars Button 
@@ -817,7 +814,7 @@ a:active {
 }
 .ct-footer-pre {
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -851,6 +848,7 @@ a:active {
   width: 70px;
   padding: 0;
   margin-bottom: 6px;
+  margin-right: 10%;
 }
 .ct-footer-list {
   padding: 15px 0 30px 0;
