@@ -334,8 +334,7 @@ $secondary-color:rgb(14, 111, 124);
                 padding-right: 8px;
               }
               #navigation .navbar-toggler span{
-                min-width: 0px;
-                margin-right: 10px;
+                margin-right: 0px;
               }
 
 
@@ -457,6 +456,7 @@ $secondary-color:rgb(14, 111, 124);
 
               // Responsive css
               @media only screen and (max-width: 991px){
+                overflow-x: hidden;
                 #navigation{
                   background-color: rgb(36, 204, 216);
                   top: 0;
@@ -489,8 +489,8 @@ $secondary-color:rgb(14, 111, 124);
                 color: rgb(38, 39, 39);
                 font-size: 21px;
                 position:fixed;
-                top:35px;
-                right:43%;
+                top:37px;
+                right:20px;
               }
               #navigation .navbar-toggler span:focus{
                 outline: none;
@@ -537,21 +537,31 @@ $secondary-color:rgb(14, 111, 124);
              #back{
               background-position: center;
              }
-            .ct-footer-list {
-              margin-left: 20px;
+            .ct-footer-list h2{
+              padding-left: 10px;
+            }
+            .ct-footer-list li{
+              padding-left: 10px;
+              font-size: 20px;
+            }
+            .ct-footer-list ul{
+              padding-bottom: 50px;
+            }
+            .ct-footer-list{
+              margin-top: 30px;
             }
             .ct-footer-pre p {
               padding-left: 20px;
             }
             .ct-footer .inner .form-group{
-              // padding: 10x 30px 0 0px;
               margin-left: 20px;
             }
             .ct-footer .inner .form-group input{
-            margin: 0px 100% 10px 0px;
+            margin: 0px 0px 5px 0px;
+            display: block;
             }
             .ct-footer .inner p{
-              font-size: 18px;
+              font-size: 20px;
               padding-left: 20px;
             }
             .ct-footer .inner .form-group button {
@@ -560,7 +570,13 @@ $secondary-color:rgb(14, 111, 124);
               height: 37px;
             }
             .ct-footer .inner-right p{
-              padding-left: 10px;
+              padding-left: 27px;
+            }
+            .ct-footer .inner-right .social{
+              padding-left: 22px;
+            }
+            .ct-footer .inner-right .policy{
+              margin-top: 20px;
             }
         }
         @media (min-width:1200px) {
@@ -582,7 +598,8 @@ $secondary-color:rgb(14, 111, 124);
         }
         @media (max-width:1199px) {
           .ct-footer-pre .form-group {
-              padding-top: 15px
+              padding-top: 15px;
+              padding-bottom: 30px;
           }
         }          
             
